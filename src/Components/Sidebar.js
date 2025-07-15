@@ -120,6 +120,18 @@ function Sidebar({ selectedMenu, selectedItem }) {
         },
       ],
     },
+
+    {
+      menuIcon: "https://cdn-icons-png.flaticon.com/128/3126/3126544.png",
+      menu: "Promo Code",
+      subMenu: [
+        {
+          name: "Coupon",
+          path: "/coupon-list",
+        },
+      ],
+    },
+
     {
       menuIcon: "https://cdn-icons-png.flaticon.com/128/2435/2435245.png",
       menu: "Subscription",

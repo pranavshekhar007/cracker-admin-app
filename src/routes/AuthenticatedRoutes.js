@@ -51,6 +51,7 @@ import AreaList from '../Pages/Location/AreaList';
 import BulkUpload from '../Pages/Location/BulkUpload';
 import Pricing from '../Pages/Subscription/Pricing';
 import Scheme from '../Pages/Subscription/Scheme';
+import CouponList from '../Pages/PromoCode/CouponList';
 
 
 function AuthenticatedRoutes() {
@@ -151,6 +152,10 @@ function AuthenticatedRoutes() {
         {/* Subscription Chit  */}
         <Route path='/pricing' element={<Pricing />} />
         <Route path='/scheme' element={<Scheme />} />
+
+
+        {/* promo code */}
+        <Route path="/coupon-list" element={<CouponList/>}/>
     </Routes>
   )
 }
