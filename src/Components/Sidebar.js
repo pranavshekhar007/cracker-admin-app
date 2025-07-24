@@ -109,7 +109,16 @@ function Sidebar({ selectedMenu, selectedItem }) {
         },
       ],
     },
-    
+    {
+      menuIcon: "https://cdn-icons-png.flaticon.com/128/7041/7041905.png",
+      menu: "Broadcaster",
+      subMenu: [
+        {
+          name: "Notify",
+          path: "/notify-list",
+        },
+      ],
+    },
     {
       menuIcon: "https://cdn-icons-png.flaticon.com/128/1601/1601521.png",
       menu: "Banners",

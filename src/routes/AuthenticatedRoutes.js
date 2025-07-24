@@ -52,6 +52,7 @@ import BulkUpload from '../Pages/Location/BulkUpload';
 import Pricing from '../Pages/Subscription/Pricing';
 import Scheme from '../Pages/Subscription/Scheme';
 import CouponList from '../Pages/PromoCode/CouponList';
+import NotifyList from '../Pages/Notification/NotifyList';
 
 
 function AuthenticatedRoutes() {
@@ -103,6 +104,7 @@ function AuthenticatedRoutes() {
         
         {/* notification */}
         <Route path="/notification-list" element={<NotificationList/>}/>
+        <Route path="/notify-list" element={<NotifyList />}/>
         
         {/* command center */}
         <Route path="/role-list" element={<RoleList/>}/>
