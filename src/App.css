@@ -349,11 +349,6 @@ td ul li {
   border-color: #0d6efd;
 }
 
-@media print {
-  .no-print {
-    display: none !important;
-  }
-}
 
 .productDetailsDiv h1{
   font-family: poppins;
@@ -590,4 +585,27 @@ margin-right: 5px;
 }
 .notifyPopUpCloseBtn button{
   border-radius: 24px;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-area,
+  .print-area * {
+    visibility: visible;
+  }
+
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .no-print {
+    display: none !important;
+  }
 }
